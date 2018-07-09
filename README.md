@@ -14,14 +14,15 @@ Summary: Typing-toolbox for Python 3 _and_ 2.7 w.r.t. PEP 484.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pytypes-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytypes-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pytypes-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pytypes-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pytypes-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pytypes-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pytypes-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pytypes-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytypes/badges/version.svg)](https://anaconda.org/conda-forge/pytypes)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytypes/badges/downloads.svg)](https://anaconda.org/conda-forge/pytypes)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pytypes-green.svg)](https://anaconda.org/conda-forge/pytypes) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pytypes.svg)](https://anaconda.org/conda-forge/pytypes) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pytypes.svg)](https://anaconda.org/conda-forge/pytypes) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pytypes.svg)](https://anaconda.org/conda-forge/pytypes) |
 
 Installing pytypes
 ==================
