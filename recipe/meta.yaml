@@ -1,6 +1,6 @@
 {% set name = "pytypes" %}
-{% set version = "1.0b5" %}
-{% set sha256 = "a28f6c7d01c91c9b4a81b4f9523cd0ce620edec3cd30bc389a34540ba3bd9de4" %}
+{% set version = "1.0b8" %}
+{% set sha256 = "706ed2b12363e2056ff8f339d3854ac3934c16015d735be6db94b9df75546fb5" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - typestubs=pytypes.stubfile_2_converter:main
 
@@ -39,7 +39,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Typing-toolbox for Python 3 _and_ 2.7 w.r.t. PEP 484.'
+  summary: Typing-toolbox for Python 3 _and_ 2.7 w.r.t. PEP 484.
   doc_url: https://github.com/Stewori/pytypes
   dev_url: https://github.com/Stewori/pytypes
 
