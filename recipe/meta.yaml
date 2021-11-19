@@ -21,11 +21,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - pip
     - setuptools_scm
   run:
-    - python
+    - python >=3.5
     - typing
 
 test:
