@@ -1,6 +1,6 @@
 {% set name = "pytypes" %}
-{% set version = "1.0b8" %}
-{% set sha256 = "706ed2b12363e2056ff8f339d3854ac3934c16015d735be6db94b9df75546fb5" %}
+{% set version = "1.0b9" %}
+{% set sha256 = "2bed705551d19070281f93b2447cc8d0a179190d59ee9ca102bd03a04989738d" %}
 
 package:
   name: {{ name|lower }}
